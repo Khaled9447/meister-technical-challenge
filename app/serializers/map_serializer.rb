@@ -1,5 +1,5 @@
 class MapSerializer < ActiveModel::Serializer
-  attributes :title, :topic_id, :user
+  attributes :id, :title, :user
 
   def title
     object.topic.title

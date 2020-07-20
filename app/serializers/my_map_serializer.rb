@@ -1,5 +1,5 @@
 class MyMapSerializer < ActiveModel::Serializer
-  attributes :title, :topic_id, :access_level
+  attributes :id, :title, :access_level
 
   def title
     object.topic.title
